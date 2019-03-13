@@ -1,0 +1,262 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+html {
+    box-sizing: border-box;
+    animation: Fade-To-Black 1s ease-in;
+    font-size: 10px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9,
+h10,
+h11,
+h12,
+button {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3b3a36;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3b3a36;
+}
+
+div.separator {
+    background-color: #3b3a36;
+    height: 12px;
+    width: 100%;
+}
+
+/* Animations */
+@keyframes Fade-To-Black {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* 
+@keyframes slide {
+    from {
+        left: -30%;
+    }
+
+    to {
+        left: 14%;
+    }
+} */
+
+/* Header */
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header .text {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.header .text h1 {
+    color: #b6b4ad;
+    font-size: 30px;
+    padding: 60px 0;
+}
+
+.header .text h2 {
+    color: #b6b4ad;
+    font-size: 24px;
+    padding-bottom: 80px;
+}
+
+.header .text button {
+    border: 2px solid #b6b4ad;
+    padding: 15px 25px;
+    border-radius: 40px;
+    color: #b6b4ad;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+/* Section Description */
+.description {
+    background-color: rgba(227, 224, 207, 1);
+    padding: 30px 0;
+}
+
+.description .wrap-description {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.description p span {
+    font-weight: bold;
+}
+
+/* Section Features */
+.features {
+    background-color: rgba(227, 224, 207, 1);
+    padding: 30px 0 15px 0;
+}
+
+.features .wrap-features {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.features .feature i {
+    padding-right: 10px;
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+.features .feature h3,
+h4,
+h5 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+/* Section Download */
+.download {
+    background-color: rgba(227, 224, 207, 1);
+    padding: 30px 0 20px 0;
+}
+
+.download .download-h {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.download .wrap-download {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.download .torrent a,
+.direct a {
+    padding: 25px 0;
+    display: block;
+    font-size: 24px;
+}
+
+.download .torrent h7,
+.direct h8 {
+    font-size: 20px;
+}
+
+/* Section Contact-us */
+.contact-us {
+    background-color: rgba(227, 224, 207, 1);
+    padding: 30px 0;
+}
+
+.contact-us .contact-us-wrap {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-us .p-contact {
+    font-size: 22px;
+    padding-bottom: 20px
+}
+
+.contact-us .input {
+    text-align: center;
+}
+
+.contact-us .input .mail {
+    border-radius: 40px;
+    border: 2px solid #3b3a36;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.contact-us .input .question {
+    height: 160px;
+    border-radius: 20px;
+    border: 2px solid #3b3a36;
+    padding: 10px 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(227, 224, 207, 1);
+    padding: 30px 0;
+}
+
+.contact {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact h9,
+h10,
+h11,
+h12 {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact h9 {
+    padding-bottom: 15px;
+}
+
+.contact h10 {
+    padding-bottom: 15px;
+}
+
+.contact h11 {
+    padding-bottom: 15px;
+}
