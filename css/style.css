@@ -630,6 +630,11 @@ h12 {
         font-size: 48px;
     }
 
+    .download .torrent a i,
+    .direct a i {
+        cursor: pointer;
+    }
+
     .download .torrent h7,
     .direct h8 {
         font-size: 24px;
