@@ -612,28 +612,37 @@ h12 {
         justify-content: space-around;
     }
 
+    .download {
+        padding: 5vh 0;
+    }
+
     .download .download-h {
         width: 80%;
         margin: 0 auto;
         text-align: center;
-        font-size: 30px;
+        font-size: 38px;
         padding-bottom: 50px;
         padding-top: 10px;
     }
 
     .download .torrent a,
     .direct a {
-        font-size: 26px;
+        font-size: 48px;
     }
 
     .download .torrent h7,
     .direct h8 {
         font-size: 24px;
+        padding-bottom: 40px;
+    }
+
+    .contact-us {
+        padding: 5vh 0;
     }
 
     .contact-us .p-contact {
         font-size: 24px;
-        padding-bottom: 40px;
+        padding-bottom: 80px;
     }
 
     .contact h9,
