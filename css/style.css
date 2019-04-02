@@ -60,16 +60,16 @@ div.separator {
     }
 }
 
-/* 
+
 @keyframes slide {
     from {
         left: -30%;
     }
 
     to {
-        left: 14%;
+        left: 16%;
     }
-} */
+}
 
 /* Header */
 .header {
@@ -112,7 +112,7 @@ div.separator {
 
 /* Section Description */
 .description {
-    background-color: rgba(227, 224, 207, 1);
+    background-color: rgba(227, 224, 207, 0.5);
     padding: 30px 0;
 }
 
@@ -133,7 +133,7 @@ div.separator {
 
 /* Section Features */
 .features {
-    background-color: rgba(227, 224, 207, 1);
+    background-color: rgba(227, 224, 207, 0.5);
     padding: 30px 0 15px 0;
 }
 
@@ -165,7 +165,7 @@ h5 {
 
 /* Section Download */
 .download {
-    background-color: rgba(227, 224, 207, 1);
+    background-color: rgba(227, 224, 207, 0.5);
     padding: 30px 0 20px 0;
 }
 
@@ -196,7 +196,7 @@ h5 {
 
 /* Section Contact-us */
 .contact-us {
-    background-color: rgba(227, 224, 207, 1);
+    background-color: rgba(227, 224, 207, 0.5);
     padding: 30px 0;
 }
 
@@ -231,13 +231,14 @@ h5 {
 
 /* Footer */
 .footer {
-    background-color: rgba(227, 224, 207, 1);
+    background-color: rgba(227, 224, 207, 0.5);
     padding: 30px 0;
 }
 
 .contact {
     width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .contact h9,
@@ -259,4 +260,485 @@ h12 {
 
 .contact h11 {
     padding-bottom: 15px;
+}
+
+
+/* Media Queries */
+@media(min-width:410px) and (orientation:portrait) {
+    .header .text {
+        padding-top: 100px;
+
+    }
+
+    .header .text h1 {
+        font-size: 32px;
+        padding: 70px 0;
+    }
+
+    .header .text h2 {
+        font-size: 26px;
+        padding-bottom: 90px;
+    }
+
+    .description p {
+        font-size: 17px;
+
+    }
+
+    .features .feature h3,
+    h4,
+    h5 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+
+    .features .feature p {
+        font-size: 16px;
+    }
+
+    .download .download-h {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 26px;
+        padding-bottom: 35px;
+    }
+}
+
+@media(min-width:768px) and (orientation:portrait) {
+    .header .text {
+        padding-top: 220px;
+
+    }
+
+    .header .text h1 {
+        font-size: 42px;
+        padding: 90px 0;
+    }
+
+    .header .text h2 {
+        font-size: 34px;
+    }
+
+    .header .text button {
+        border: 3px solid #b6b4ad;
+        padding: 20px 30px;
+        font-size: 26px;
+
+    }
+
+    .description p {
+        font-size: 22px;
+    }
+
+    .features .feature h3,
+    h4,
+    h5 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .features .feature p {
+        font-size: 20px;
+    }
+
+    .download .download-h {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 34px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    .download .torrent a,
+    .direct a {
+        padding: 35px 0;
+        display: block;
+        font-size: 32px;
+    }
+
+    .download .torrent h7,
+    .direct h8 {
+        font-size: 24px;
+    }
+
+    .contact-us .p-contact {
+        font-size: 26px;
+        padding-bottom: 40px
+    }
+
+    .contact-us .input {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .contact-us .input .mail {
+        padding: 15px 25px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us .input .question {
+        height: 160px;
+        border-radius: 20px;
+        border: 2px solid #3b3a36;
+        padding: 10px 20px;
+    }
+
+    .contact h9,
+    h10,
+    h11,
+    h12 {
+        font-size: 22px;
+    }
+
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    .header .text {
+        padding-top: 340px;
+
+    }
+
+    .header .text h1 {
+        font-size: 50px;
+        padding: 110px 0;
+    }
+
+    .header .text h2 {
+        font-size: 40px;
+        padding-bottom: 110px;
+    }
+
+    .header .text button {
+        border-radius: 0px;
+        font-size: 32px;
+
+    }
+
+    .description p {
+        font-size: 30px;
+    }
+
+    .features .feature h3,
+    h4,
+    h5 {
+        font-size: 36px;
+    }
+
+    .features .feature p {
+        font-size: 28px;
+    }
+
+    .download .wrap-download {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .download .download-h {
+        font-size: 42px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    .download .torrent a,
+    .direct a {
+        font-size: 38px;
+    }
+
+    .download .torrent h7,
+    .direct h8 {
+        font-size: 34px;
+    }
+
+    .contact-us .p-contact {
+        font-size: 34px;
+    }
+
+    .contact-us .input .mail {
+        padding: 15px 25px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us .input .question {
+        height: 200px;
+        border-radius: 20px;
+        border: 2px solid #3b3a36;
+        padding: 10px 20px;
+    }
+
+    .contact h9,
+    h10,
+    h11,
+    h12 {
+        font-size: 28px;
+    }
+}
+
+/* Media Queries Landscape */
+@media(min-width:532px) and (orientation:landscape) {
+    .header .text {
+        padding-top: 20px;
+    }
+
+    .header .text h1 {
+        font-size: 24px;
+        padding: 50px 0;
+    }
+
+    .header .text h2 {
+        font-size: 22px;
+        padding-bottom: 50px;
+    }
+
+    .header .text button {
+        border-radius: 0px;
+        font-size: 18px;
+    }
+
+    .description p {
+        font-size: 16px;
+    }
+
+    .features .feature h3,
+    h4,
+    h5 {
+        font-size: 22px;
+    }
+
+    .features .feature p {
+        font-size: 16px;
+    }
+
+    .download .download-h {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 28px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    .download .torrent a,
+    .direct a {
+        font-size: 24px;
+    }
+
+    .download .torrent h7,
+    .direct h8 {
+        font-size: 24px;
+    }
+
+    .contact-us .p-contact {
+        font-size: 21px;
+        padding-bottom: 40px;
+    }
+
+    .contact h9,
+    h10,
+    h11,
+    h12 {
+        font-size: 16px;
+    }
+}
+
+@media(min-width:640px) and (orientation:landscape) {
+    .header .text {
+        padding-top: 40px;
+    }
+
+    .contact-us .input {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:710px) and (orientation:landscape) {
+    .header .text {
+        padding-top: 55px;
+    }
+}
+
+@media(min-width:1024px) and (orientation:landscape) {
+    .header .text {
+        text-align: left;
+        position: absolute;
+        left: 16%;
+        bottom: 40%;
+        animation: slide 1s ease-out backwards 1s;
+    }
+
+    .header .text h1 {
+        font-size: 32px;
+        padding: 50px 0;
+    }
+
+    .header .text h2 {
+        font-size: 26px;
+    }
+
+    .header .text button {
+        border: 2px solid #b6b4ad;
+        padding: 15px 25px;
+        font-size: 22px;
+        transition: 0.6s ease;
+    }
+
+    .header .text button:hover {
+        color: #9fa8a3;
+        background-color: #e3e0cf;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+
+    .features .feature h3,
+    h4,
+    h5 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .features .feature p {
+        font-size: 18px;
+    }
+
+    .wrap-download {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .download .download-h {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    .download .torrent a,
+    .direct a {
+        font-size: 26px;
+    }
+
+    .download .torrent h7,
+    .direct h8 {
+        font-size: 24px;
+    }
+
+    .contact-us .p-contact {
+        font-size: 24px;
+        padding-bottom: 40px;
+    }
+
+    .contact h9,
+    h10,
+    h11,
+    h12 {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1366px) {
+    .header .text {
+        left: 16%;
+        bottom: 40%;
+    }
+
+    .header .text h1 {
+        font-size: 36px;
+        padding: 80px 0;
+    }
+
+    .header .text h2 {
+        font-size: 30px;
+        padding-bottom: 80px;
+    }
+
+    .header .text button {
+        padding: 15px 25px;
+        font-size: 26px;
+    }
+
+    .description {
+        padding: 10vh 0;
+        background-image: url(../images/description2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .description .wrap-description {
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    .description p {
+        font-size: 22px;
+        width: 40%;
+    }
+
+    .features {
+        padding: 7vh 0 5vh 0;
+    }
+
+    .features .feature {
+        width: 31%;
+    }
+
+    .features .wrap-features {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .features .feature h3,
+    h4,
+    h5 {
+        font-size: 26px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+
+    .features .feature p {
+        font-size: 22px;
+    }
+
+    .wrap-download {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-us .p-contact {
+        font-size: 26px;
+        padding-bottom: 40px;
+    }
+
+    .contact-us .input {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .contact h9,
+    h10,
+    h11,
+    h12 {
+        font-size: 18px;
+        padding: 0;
+    }
+}
+
+@media(min-width:1600px) {
+    .header .text {
+        bottom: 30%;
+    }
 }
