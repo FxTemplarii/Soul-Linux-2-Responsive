@@ -144,9 +144,7 @@ div.separator {
     margin-bottom: 30px;
 }
 
-.features .feature h3,
-h4,
-h5 {
+.features .feature h3 {
     font-size: 22px;
     padding-bottom: 10px;
 }
@@ -279,9 +277,7 @@ h5 {
 
     }
 
-    .features .feature h3,
-    h4,
-    h5 {
+    .features .feature h3 {
         font-size: 24px;
         padding-bottom: 15px;
     }
@@ -325,9 +321,7 @@ h5 {
         font-size: 22px;
     }
 
-    .features .feature h3,
-    h4,
-    h5 {
+    .features .feature h3 {
         font-size: 28px;
         padding-bottom: 20px;
     }
@@ -416,9 +410,7 @@ h5 {
         font-size: 30px;
     }
 
-    .features .feature h3,
-    h4,
-    h5 {
+    .features .feature h3 {
         font-size: 36px;
     }
 
@@ -496,9 +488,7 @@ h5 {
         font-size: 16px;
     }
 
-    .features .feature h3,
-    h4,
-    h5 {
+    .features .feature h3 {
         font-size: 22px;
     }
 
@@ -590,9 +580,7 @@ h5 {
         font-size: 18px;
     }
 
-    .features .feature h3,
-    h4,
-    h5 {
+    .features .feature h3 {
         font-size: 24px;
         padding-bottom: 20px;
     }
@@ -703,9 +691,7 @@ h5 {
         justify-content: space-around;
     }
 
-    .features .feature h3,
-    h4,
-    h5 {
+    .features .feature h3 {
         font-size: 26px;
         padding-bottom: 30px;
         padding-top: 10px;
