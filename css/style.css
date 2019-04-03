@@ -25,12 +25,6 @@ h3,
 h4,
 h5,
 h6,
-h7,
-h8,
-h9,
-h10,
-h11,
-h12,
 button {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -189,8 +183,8 @@ h5 {
     font-size: 24px;
 }
 
-.download .torrent h7,
-.direct h8 {
+.download .torrent h2,
+.direct h2 {
     font-size: 20px;
 }
 
@@ -241,24 +235,24 @@ h5 {
     text-align: center;
 }
 
-.contact h9,
-h10,
-h11,
-h12 {
+.contact h2,
+h3,
+h4,
+h5 {
     display: block;
     font-size: 16px;
     font-weight: bold;
 }
 
-.contact h9 {
+.contact h2 {
     padding-bottom: 15px;
 }
 
-.contact h10 {
+.contact h3 {
     padding-bottom: 15px;
 }
 
-.contact h11 {
+.contact h4 {
     padding-bottom: 15px;
 }
 
@@ -358,8 +352,8 @@ h12 {
         font-size: 32px;
     }
 
-    .download .torrent h7,
-    .direct h8 {
+    .download .torrent h2,
+    .direct h2 {
         font-size: 24px;
     }
 
@@ -387,10 +381,10 @@ h12 {
         padding: 10px 20px;
     }
 
-    .contact h9,
-    h10,
-    h11,
-    h12 {
+    .contact h2,
+    h3,
+    h4,
+    h5 {
         font-size: 22px;
     }
 
@@ -448,8 +442,8 @@ h12 {
         font-size: 38px;
     }
 
-    .download .torrent h7,
-    .direct h8 {
+    .download .torrent h2,
+    .direct h2 {
         font-size: 34px;
     }
 
@@ -469,10 +463,10 @@ h12 {
         padding: 10px 20px;
     }
 
-    .contact h9,
-    h10,
-    h11,
-    h12 {
+    .contact h2,
+    h3,
+    h4,
+    h5 {
         font-size: 28px;
     }
 }
@@ -526,8 +520,8 @@ h12 {
         font-size: 24px;
     }
 
-    .download .torrent h7,
-    .direct h8 {
+    .download .torrent h2,
+    .direct h2 {
         font-size: 24px;
     }
 
@@ -536,10 +530,10 @@ h12 {
         padding-bottom: 40px;
     }
 
-    .contact h9,
-    h10,
-    h11,
-    h12 {
+    .contact h2,
+    h3,
+    h4,
+    h5 {
         font-size: 16px;
     }
 }
@@ -635,8 +629,8 @@ h12 {
         cursor: pointer;
     }
 
-    .download .torrent h7,
-    .direct h8 {
+    .download .torrent h2,
+    .direct h2 {
         font-size: 24px;
         padding-bottom: 40px;
     }
@@ -650,10 +644,10 @@ h12 {
         padding-bottom: 80px;
     }
 
-    .contact h9,
-    h10,
-    h11,
-    h12 {
+    .contact h2,
+    h3,
+    h4,
+    h5 {
         font-size: 18px;
     }
 }
@@ -742,10 +736,10 @@ h12 {
         align-content: center;
     }
 
-    .contact h9,
-    h10,
-    h11,
-    h12 {
+    .contact h2,
+    h3,
+    h4,
+    h5 {
         font-size: 18px;
         padding: 0;
     }
